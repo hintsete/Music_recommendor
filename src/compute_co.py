@@ -14,14 +14,29 @@ driver = GraphDatabase.driver(
 df = pd.read_csv('data/music_subset.csv')
 total_sessions = df['Session_id'].nunique()
 
+# def calc_coocc(tx, total_sessions):
+#     tx.run("""
+#         MATCH (s:Session)<-[:OCCURRED_IN]-(e1:Event), (s)<-[:OCCURRED_IN]-(e2:Event)
+#         WHERE e1.eid < e2.eid AND e1.type = 'play' AND e2.type = 'play'
+#         MERGE (e1)-[r:CONNECTED_TO]->(e2)
+#         ON CREATE SET r.popularity = 1, r.weight = 1.0 / $total_sessions
+#         ON MATCH SET r.popularity = r.popularity + 1, r.weight = r.popularity / $total_sessions
+#     """, total_sessions=total_sessions)
 def calc_coocc(tx, total_sessions):
     tx.run("""
         MATCH (s:Session)<-[:OCCURRED_IN]-(e1:Event), (s)<-[:OCCURRED_IN]-(e2:Event)
         WHERE e1.eid < e2.eid AND e1.type = 'play' AND e2.type = 'play'
+        WITH e1, e2, datetime(e1.timestamp) AS t1, datetime(e2.timestamp) AS t2, s
+        WITH e1, e2, s, abs(duration.inSeconds(t1, t2).seconds) AS time_diff
         MERGE (e1)-[r:CONNECTED_TO]->(e2)
-        ON CREATE SET r.popularity = 1, r.weight = 1.0 / $total_sessions
-        ON MATCH SET r.popularity = r.popularity + 1, r.weight = r.popularity / $total_sessions
+        ON CREATE SET r.popularity = 1,
+                      r.decay = exp(-time_diff / 86400.0),   // 1-day decay factor
+                      r.weight = r.decay / $total_sessions
+        ON MATCH SET r.popularity = r.popularity + 1,
+                     r.decay = exp(-time_diff / 86400.0),
+                     r.weight = r.weight + (r.decay / $total_sessions)
     """, total_sessions=total_sessions)
+
 
 with driver.session() as session:
     session.execute_write(calc_coocc, total_sessions)

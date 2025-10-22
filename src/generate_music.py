@@ -11,7 +11,7 @@ events_per_session = random.choices(range(3, 6), k=num_sessions)  # 3-5 events/s
 
 genres = ['Ethiopiques', 'Pop', 'Hip Hop', 'Rock', 'Jazz']
 artists_tracks = {
-    'Ethiopiques': [('Mulatu Astatke', 'Yekermo Sew'), ('Hailu Mergia', 'Tezeta'), ('Aster Aweke', 'Menew'), ('Neway Debebe', 'Yene Alem')],
+    'Ethiopiques': [('Mulatu Astatke', 'Yekermo Sew'), ('Hailu Mergia', 'Tezeta'), ('Aster Aweke', 'Menew'), ('Neway Debebe', 'Yamral Tiletish')],
     'Pop': [('Lana Del Rey', 'Video Games'), ('Taylor Swift', 'Anti-Hero'), ('Billie Eilish', 'Ocean Eyes'), ('Ariana Grande', 'thank u, next')],
     'Hip Hop': [('Lauryn Hill', 'I Gotta find piece of mind'), ('Erykah Badu', 'On & On'), ('Kendrick Lamar', 'Love.'), ('J. Cole', 'Middle Child')],
     'Rock': [('Arctic Monkeys', 'Do I Wanna Know?'), ('The Strokes', 'Last Nite'), ('Foo Fighters', 'Everlong'), ('The Killers', 'Mr. Brightside')],

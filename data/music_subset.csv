@@ -23,8 +23,8 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 66470632823,sess_007,2025-10-05 00:00:00,Ethiopiques,Aster Aweke - Menew,play,1
 66470632823,sess_007,2025-10-05 00:05:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
 66470632823,sess_007,2025-10-05 00:06:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,3
-66470632823,sess_007,2025-10-05 00:06:00,Ethiopiques,Neway Debebe - Yene Alem,play,4
-45425608546,sess_008,2025-10-06 00:00:00,Ethiopiques,Neway Debebe - Yene Alem,play,1
+66470632823,sess_007,2025-10-05 00:06:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,4
+45425608546,sess_008,2025-10-06 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,1
 45425608546,sess_008,2025-10-06 00:03:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,2
 45425608546,sess_008,2025-10-06 00:10:00,Ethiopiques,Hailu Mergia - Tezeta,skip,3
 47681150998,sess_009,2025-10-12 00:00:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,1
@@ -41,12 +41,12 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 37002088812,sess_012,2025-10-14 00:03:00,Jazz,Kamasi Washington - Truth,play,2
 37002088812,sess_012,2025-10-14 00:08:00,Jazz,Herbie Hancock - Cantaloupe Island,play,3
 37002088812,sess_012,2025-10-14 00:09:00,Jazz,Miles Davis - So What,play,4
-93645073667,sess_013,2025-10-28 00:00:00,Ethiopiques,Neway Debebe - Yene Alem,skip,1
+93645073667,sess_013,2025-10-28 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,1
 93645073667,sess_013,2025-10-28 00:04:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,2
 93645073667,sess_013,2025-10-28 00:05:00,Ethiopiques,Hailu Mergia - Tezeta,play,3
 81708395052,sess_014,2025-10-15 00:00:00,Ethiopiques,Hailu Mergia - Tezeta,skip,1
 81708395052,sess_014,2025-10-15 00:04:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,2
-81708395052,sess_014,2025-10-15 00:10:00,Ethiopiques,Neway Debebe - Yene Alem,skip,3
+81708395052,sess_014,2025-10-15 00:10:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,3
 35328315961,sess_015,2025-10-24 00:00:00,Rock,The Killers - Mr. Brightside,play,1
 35328315961,sess_015,2025-10-24 00:04:00,Rock,The Strokes - Last Nite,play,2
 35328315961,sess_015,2025-10-24 00:04:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,3
@@ -67,7 +67,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 16611754494,sess_019,2025-10-31 00:04:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,3
 16611754494,sess_019,2025-10-31 00:12:00,Hip Hop,J. Cole - Middle Child,play,4
 24220803878,sess_020,2025-10-19 00:00:00,Ethiopiques,Aster Aweke - Menew,play,1
-24220803878,sess_020,2025-10-19 00:03:00,Ethiopiques,Neway Debebe - Yene Alem,play,2
+24220803878,sess_020,2025-10-19 00:03:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
 24220803878,sess_020,2025-10-19 00:04:00,Ethiopiques,Hailu Mergia - Tezeta,play,3
 60085852771,sess_021,2025-10-03 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
 60085852771,sess_021,2025-10-03 00:04:00,Jazz,Miles Davis - So What,skip,2
@@ -83,7 +83,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 56604487565,sess_023,2025-10-06 00:10:00,Rock,Foo Fighters - Everlong,skip,4
 72237603717,sess_024,2025-10-26 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,1
 72237603717,sess_024,2025-10-26 00:04:00,Ethiopiques,Hailu Mergia - Tezeta,skip,2
-72237603717,sess_024,2025-10-26 00:08:00,Ethiopiques,Neway Debebe - Yene Alem,skip,3
+72237603717,sess_024,2025-10-26 00:08:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,3
 55313573453,sess_025,2025-10-12 00:00:00,Rock,Foo Fighters - Everlong,play,1
 55313573453,sess_025,2025-10-12 00:03:00,Rock,The Strokes - Last Nite,play,2
 55313573453,sess_025,2025-10-12 00:06:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,3
@@ -111,7 +111,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 18701023473,sess_031,2025-10-08 00:06:00,Jazz,Kamasi Washington - Truth,skip,3
 18701023473,sess_031,2025-10-08 00:15:00,Jazz,Herbie Hancock - Cantaloupe Island,play,4
 54381221630,sess_032,2025-10-22 00:00:00,Ethiopiques,Hailu Mergia - Tezeta,skip,1
-54381221630,sess_032,2025-10-22 00:02:00,Ethiopiques,Neway Debebe - Yene Alem,skip,2
+54381221630,sess_032,2025-10-22 00:02:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,2
 54381221630,sess_032,2025-10-22 00:04:00,Ethiopiques,Aster Aweke - Menew,skip,3
 54381221630,sess_032,2025-10-22 00:12:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,4
 64857675642,sess_033,2025-10-28 00:00:00,Jazz,Miles Davis - So What,play,1
@@ -178,9 +178,9 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 69020229659,sess_050,2025-10-17 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,1
 69020229659,sess_050,2025-10-17 00:03:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
 69020229659,sess_050,2025-10-17 00:04:00,Ethiopiques,Aster Aweke - Menew,play,3
-69020229659,sess_050,2025-10-17 00:15:00,Ethiopiques,Neway Debebe - Yene Alem,play,4
+69020229659,sess_050,2025-10-17 00:15:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,4
 20495020293,sess_051,2025-10-29 00:00:00,Ethiopiques,Aster Aweke - Menew,skip,1
-20495020293,sess_051,2025-10-29 00:04:00,Ethiopiques,Neway Debebe - Yene Alem,skip,2
+20495020293,sess_051,2025-10-29 00:04:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,2
 20495020293,sess_051,2025-10-29 00:08:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,3
 20495020293,sess_051,2025-10-29 00:15:00,Ethiopiques,Hailu Mergia - Tezeta,play,4
 86317113819,sess_052,2025-10-24 00:00:00,Pop,"Ariana Grande - thank u, next",skip,1
@@ -190,7 +190,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 47216354905,sess_053,2025-10-12 00:04:00,Pop,Lana Del Rey - Video Games,play,2
 47216354905,sess_053,2025-10-12 00:08:00,Pop,Billie Eilish - Ocean Eyes,play,3
 69057021183,sess_054,2025-10-28 00:00:00,Ethiopiques,Aster Aweke - Menew,play,1
-69057021183,sess_054,2025-10-28 00:03:00,Ethiopiques,Neway Debebe - Yene Alem,play,2
+69057021183,sess_054,2025-10-28 00:03:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
 69057021183,sess_054,2025-10-28 00:08:00,Ethiopiques,Hailu Mergia - Tezeta,play,3
 69057021183,sess_054,2025-10-28 00:15:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,4
 51929229606,sess_055,2025-10-30 00:00:00,Hip Hop,Kendrick Lamar - Love.,play,1
@@ -198,7 +198,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 51929229606,sess_055,2025-10-30 00:09:00,Hip Hop,Erykah Badu - On & On,skip,3
 51929229606,sess_055,2025-10-30 00:10:00,Hip Hop,J. Cole - Middle Child,skip,4
 91352725415,sess_056,2025-10-20 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,1
-91352725415,sess_056,2025-10-20 00:05:00,Ethiopiques,Neway Debebe - Yene Alem,skip,2
+91352725415,sess_056,2025-10-20 00:05:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,2
 91352725415,sess_056,2025-10-20 00:10:00,Ethiopiques,Aster Aweke - Menew,skip,3
 91352725415,sess_056,2025-10-20 00:15:00,Ethiopiques,Hailu Mergia - Tezeta,skip,4
 25085412535,sess_057,2025-10-12 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,1
@@ -220,7 +220,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 40699094081,sess_061,2025-10-04 00:08:00,Pop,"Ariana Grande - thank u, next",play,3
 40699094081,sess_061,2025-10-04 00:15:00,Pop,Taylor Swift - Anti-Hero,skip,4
 47779948312,sess_062,2025-10-19 00:00:00,Ethiopiques,Aster Aweke - Menew,skip,1
-47779948312,sess_062,2025-10-19 00:02:00,Ethiopiques,Neway Debebe - Yene Alem,play,2
+47779948312,sess_062,2025-10-19 00:02:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
 47779948312,sess_062,2025-10-19 00:04:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,3
 47779948312,sess_062,2025-10-19 00:06:00,Ethiopiques,Hailu Mergia - Tezeta,skip,4
 98354592695,sess_063,2025-10-07 00:00:00,Hip Hop,J. Cole - Middle Child,play,1
@@ -252,7 +252,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 98968977393,sess_070,2025-10-11 00:02:00,Pop,Lana Del Rey - Video Games,play,2
 98968977393,sess_070,2025-10-11 00:06:00,Pop,"Ariana Grande - thank u, next",skip,3
 41302157929,sess_071,2025-10-10 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,1
-41302157929,sess_071,2025-10-10 00:05:00,Ethiopiques,Neway Debebe - Yene Alem,play,2
+41302157929,sess_071,2025-10-10 00:05:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
 41302157929,sess_071,2025-10-10 00:08:00,Ethiopiques,Hailu Mergia - Tezeta,skip,3
 91611097405,sess_072,2025-10-12 00:00:00,Pop,"Ariana Grande - thank u, next",play,1
 91611097405,sess_072,2025-10-12 00:02:00,Pop,Lana Del Rey - Video Games,skip,2
@@ -264,7 +264,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 21976602296,sess_073,2025-10-12 00:15:00,Pop,"Ariana Grande - thank u, next",play,4
 39167591973,sess_074,2025-10-29 00:00:00,Ethiopiques,Aster Aweke - Menew,skip,1
 39167591973,sess_074,2025-10-29 00:02:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
-39167591973,sess_074,2025-10-29 00:04:00,Ethiopiques,Neway Debebe - Yene Alem,skip,3
+39167591973,sess_074,2025-10-29 00:04:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,3
 24058358297,sess_075,2025-10-26 00:00:00,Hip Hop,J. Cole - Middle Child,play,1
 24058358297,sess_075,2025-10-26 00:04:00,Hip Hop,Erykah Badu - On & On,skip,2
 24058358297,sess_075,2025-10-26 00:04:00,Hip Hop,Kendrick Lamar - Love.,skip,3
@@ -311,7 +311,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 41995771245,sess_086,2025-10-05 00:10:00,Ethiopiques,Aster Aweke - Menew,skip,3
 52430306887,sess_087,2025-10-16 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,1
 52430306887,sess_087,2025-10-16 00:02:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
-52430306887,sess_087,2025-10-16 00:06:00,Ethiopiques,Neway Debebe - Yene Alem,play,3
+52430306887,sess_087,2025-10-16 00:06:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,3
 52430306887,sess_087,2025-10-16 00:10:00,Ethiopiques,Aster Aweke - Menew,skip,4
 58976603325,sess_088,2025-10-02 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,1
 58976603325,sess_088,2025-10-02 00:04:00,Rock,Foo Fighters - Everlong,play,2
@@ -323,10 +323,10 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 32842912545,sess_090,2025-10-13 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
 32842912545,sess_090,2025-10-13 00:04:00,Jazz,Kamasi Washington - Truth,skip,2
 32842912545,sess_090,2025-10-13 00:05:00,Jazz,Herbie Hancock - Cantaloupe Island,play,3
-51161687268,sess_091,2025-10-26 00:00:00,Ethiopiques,Neway Debebe - Yene Alem,skip,1
+51161687268,sess_091,2025-10-26 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,1
 51161687268,sess_091,2025-10-26 00:03:00,Ethiopiques,Hailu Mergia - Tezeta,skip,2
 51161687268,sess_091,2025-10-26 00:06:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,3
-25893616293,sess_092,2025-10-07 00:00:00,Ethiopiques,Neway Debebe - Yene Alem,play,1
+25893616293,sess_092,2025-10-07 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,1
 25893616293,sess_092,2025-10-07 00:05:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
 25893616293,sess_092,2025-10-07 00:08:00,Ethiopiques,Aster Aweke - Menew,skip,3
 25893616293,sess_092,2025-10-07 00:15:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,4
@@ -364,7 +364,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 20689434745,sess_101,2025-10-29 00:00:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,1
 20689434745,sess_101,2025-10-29 00:05:00,Jazz,Miles Davis - So What,play,2
 20689434745,sess_101,2025-10-29 00:08:00,Jazz,Kamasi Washington - Truth,play,3
-88245290322,sess_102,2025-10-03 00:00:00,Ethiopiques,Neway Debebe - Yene Alem,skip,1
+88245290322,sess_102,2025-10-03 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,1
 88245290322,sess_102,2025-10-03 00:02:00,Ethiopiques,Hailu Mergia - Tezeta,skip,2
 88245290322,sess_102,2025-10-03 00:10:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,3
 88245290322,sess_102,2025-10-03 00:15:00,Ethiopiques,Aster Aweke - Menew,skip,4
@@ -375,7 +375,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 45025979612,sess_104,2025-10-07 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,1
 45025979612,sess_104,2025-10-07 00:02:00,Ethiopiques,Aster Aweke - Menew,skip,2
 45025979612,sess_104,2025-10-07 00:04:00,Ethiopiques,Hailu Mergia - Tezeta,play,3
-45025979612,sess_104,2025-10-07 00:09:00,Ethiopiques,Neway Debebe - Yene Alem,play,4
+45025979612,sess_104,2025-10-07 00:09:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,4
 52921684555,sess_105,2025-10-08 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
 52921684555,sess_105,2025-10-08 00:03:00,Jazz,Herbie Hancock - Cantaloupe Island,play,2
 52921684555,sess_105,2025-10-08 00:04:00,Jazz,Kamasi Washington - Truth,play,3
@@ -387,7 +387,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 69991184887,sess_107,2025-10-18 00:04:00,Jazz,Miles Davis - So What,play,2
 69991184887,sess_107,2025-10-18 00:05:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,3
 94497777476,sess_108,2025-10-20 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,1
-94497777476,sess_108,2025-10-20 00:04:00,Ethiopiques,Neway Debebe - Yene Alem,play,2
+94497777476,sess_108,2025-10-20 00:04:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
 94497777476,sess_108,2025-10-20 00:04:00,Ethiopiques,Aster Aweke - Menew,skip,3
 94497777476,sess_108,2025-10-20 00:09:00,Ethiopiques,Hailu Mergia - Tezeta,play,4
 55320835486,sess_109,2025-10-25 00:00:00,Hip Hop,J. Cole - Middle Child,skip,1
@@ -407,10 +407,10 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 91864009895,sess_112,2025-10-21 00:04:00,Jazz,Kamasi Washington - Truth,skip,3
 35382283328,sess_113,2025-10-04 00:00:00,Ethiopiques,Hailu Mergia - Tezeta,skip,1
 35382283328,sess_113,2025-10-04 00:05:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,2
-35382283328,sess_113,2025-10-04 00:06:00,Ethiopiques,Neway Debebe - Yene Alem,play,3
+35382283328,sess_113,2025-10-04 00:06:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,3
 35382283328,sess_113,2025-10-04 00:10:00,Ethiopiques,Aster Aweke - Menew,play,4
 84634375004,sess_114,2025-10-16 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,1
-84634375004,sess_114,2025-10-16 00:04:00,Ethiopiques,Neway Debebe - Yene Alem,play,2
+84634375004,sess_114,2025-10-16 00:04:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
 84634375004,sess_114,2025-10-16 00:05:00,Ethiopiques,Aster Aweke - Menew,skip,3
 91121428035,sess_115,2025-10-16 00:00:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,1
 91121428035,sess_115,2025-10-16 00:02:00,Hip Hop,J. Cole - Middle Child,play,2
@@ -425,7 +425,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 76359607781,sess_117,2025-10-08 00:06:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,3
 58604762909,sess_118,2025-10-04 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,1
 58604762909,sess_118,2025-10-04 00:05:00,Ethiopiques,Hailu Mergia - Tezeta,skip,2
-58604762909,sess_118,2025-10-04 00:06:00,Ethiopiques,Neway Debebe - Yene Alem,skip,3
+58604762909,sess_118,2025-10-04 00:06:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,3
 58604762909,sess_118,2025-10-04 00:10:00,Ethiopiques,Aster Aweke - Menew,play,4
 65249248871,sess_119,2025-10-01 00:00:00,Hip Hop,J. Cole - Middle Child,skip,1
 65249248871,sess_119,2025-10-01 00:03:00,Hip Hop,Erykah Badu - On & On,play,2
@@ -449,7 +449,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 24733694376,sess_124,2025-10-01 00:00:00,Ethiopiques,Aster Aweke - Menew,skip,1
 24733694376,sess_124,2025-10-01 00:05:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,2
 24733694376,sess_124,2025-10-01 00:06:00,Ethiopiques,Hailu Mergia - Tezeta,play,3
-24733694376,sess_124,2025-10-01 00:10:00,Ethiopiques,Neway Debebe - Yene Alem,play,4
+24733694376,sess_124,2025-10-01 00:10:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,4
 71603002323,sess_125,2025-10-26 00:00:00,Pop,"Ariana Grande - thank u, next",skip,1
 71603002323,sess_125,2025-10-26 00:04:00,Pop,Billie Eilish - Ocean Eyes,skip,2
 71603002323,sess_125,2025-10-26 00:05:00,Pop,Taylor Swift - Anti-Hero,skip,3
@@ -496,7 +496,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 51446422377,sess_137,2025-10-06 00:03:00,Hip Hop,Kendrick Lamar - Love.,play,2
 51446422377,sess_137,2025-10-06 00:06:00,Hip Hop,Erykah Badu - On & On,skip,3
 21405222211,sess_138,2025-10-23 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,1
-21405222211,sess_138,2025-10-23 00:04:00,Ethiopiques,Neway Debebe - Yene Alem,play,2
+21405222211,sess_138,2025-10-23 00:04:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
 21405222211,sess_138,2025-10-23 00:06:00,Ethiopiques,Aster Aweke - Menew,play,3
 21405222211,sess_138,2025-10-23 00:10:00,Ethiopiques,Hailu Mergia - Tezeta,play,4
 28465161052,sess_139,2025-10-13 00:00:00,Pop,Taylor Swift - Anti-Hero,skip,1
@@ -525,13 +525,13 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 98376045986,sess_145,2025-10-03 00:02:00,Rock,Foo Fighters - Everlong,play,2
 98376045986,sess_145,2025-10-03 00:04:00,Rock,The Strokes - Last Nite,play,3
 98376045986,sess_145,2025-10-03 00:15:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,4
-32119445226,sess_146,2025-10-30 00:00:00,Ethiopiques,Neway Debebe - Yene Alem,skip,1
+32119445226,sess_146,2025-10-30 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,1
 32119445226,sess_146,2025-10-30 00:04:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,2
 32119445226,sess_146,2025-10-30 00:04:00,Ethiopiques,Hailu Mergia - Tezeta,skip,3
 79232299830,sess_147,2025-10-22 00:00:00,Ethiopiques,Hailu Mergia - Tezeta,skip,1
 79232299830,sess_147,2025-10-22 00:04:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,2
 79232299830,sess_147,2025-10-22 00:08:00,Ethiopiques,Aster Aweke - Menew,play,3
-79232299830,sess_147,2025-10-22 00:09:00,Ethiopiques,Neway Debebe - Yene Alem,skip,4
+79232299830,sess_147,2025-10-22 00:09:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,4
 42739322469,sess_148,2025-10-15 00:00:00,Hip Hop,J. Cole - Middle Child,skip,1
 42739322469,sess_148,2025-10-15 00:02:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,2
 42739322469,sess_148,2025-10-15 00:04:00,Hip Hop,Kendrick Lamar - Love.,skip,3
@@ -565,7 +565,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 37570403644,sess_156,2025-10-21 00:05:00,Jazz,John Coltrane - A Love Supreme,skip,2
 37570403644,sess_156,2025-10-21 00:08:00,Jazz,Miles Davis - So What,skip,3
 46027823257,sess_157,2025-10-06 00:00:00,Ethiopiques,Aster Aweke - Menew,play,1
-46027823257,sess_157,2025-10-06 00:03:00,Ethiopiques,Neway Debebe - Yene Alem,play,2
+46027823257,sess_157,2025-10-06 00:03:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
 46027823257,sess_157,2025-10-06 00:06:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,3
 46027823257,sess_157,2025-10-06 00:06:00,Ethiopiques,Hailu Mergia - Tezeta,play,4
 35105032610,sess_158,2025-10-06 00:00:00,Pop,Billie Eilish - Ocean Eyes,play,1
@@ -608,7 +608,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 44551366600,sess_168,2025-10-15 00:10:00,Rock,The Strokes - Last Nite,skip,4
 19873494624,sess_169,2025-10-13 00:00:00,Ethiopiques,Hailu Mergia - Tezeta,play,1
 19873494624,sess_169,2025-10-13 00:03:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,2
-19873494624,sess_169,2025-10-13 00:10:00,Ethiopiques,Neway Debebe - Yene Alem,play,3
+19873494624,sess_169,2025-10-13 00:10:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,3
 54057286451,sess_170,2025-10-30 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,1
 54057286451,sess_170,2025-10-30 00:05:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
 54057286451,sess_170,2025-10-30 00:06:00,Ethiopiques,Aster Aweke - Menew,play,3
@@ -628,7 +628,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 38796183528,sess_174,2025-10-09 00:05:00,Hip Hop,Kendrick Lamar - Love.,play,2
 38796183528,sess_174,2025-10-09 00:08:00,Hip Hop,Erykah Badu - On & On,skip,3
 38796183528,sess_174,2025-10-09 00:09:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,4
-21548525142,sess_175,2025-10-10 00:00:00,Ethiopiques,Neway Debebe - Yene Alem,play,1
+21548525142,sess_175,2025-10-10 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,1
 21548525142,sess_175,2025-10-10 00:05:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,2
 21548525142,sess_175,2025-10-10 00:06:00,Ethiopiques,Aster Aweke - Menew,play,3
 21548525142,sess_175,2025-10-10 00:12:00,Ethiopiques,Hailu Mergia - Tezeta,skip,4
@@ -639,21 +639,21 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 53223851010,sess_177,2025-10-09 00:05:00,Hip Hop,Erykah Badu - On & On,skip,2
 53223851010,sess_177,2025-10-09 00:06:00,Hip Hop,J. Cole - Middle Child,play,3
 63337333503,sess_178,2025-10-13 00:00:00,Ethiopiques,Hailu Mergia - Tezeta,skip,1
-63337333503,sess_178,2025-10-13 00:03:00,Ethiopiques,Neway Debebe - Yene Alem,play,2
+63337333503,sess_178,2025-10-13 00:03:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
 63337333503,sess_178,2025-10-13 00:06:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,3
 63337333503,sess_178,2025-10-13 00:09:00,Ethiopiques,Aster Aweke - Menew,skip,4
 21400710000,sess_179,2025-10-08 00:00:00,Hip Hop,Erykah Badu - On & On,skip,1
 21400710000,sess_179,2025-10-08 00:04:00,Hip Hop,Kendrick Lamar - Love.,skip,2
 21400710000,sess_179,2025-10-08 00:06:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,3
 21400710000,sess_179,2025-10-08 00:10:00,Hip Hop,J. Cole - Middle Child,play,4
-39589859638,sess_180,2025-10-17 00:00:00,Ethiopiques,Neway Debebe - Yene Alem,play,1
+39589859638,sess_180,2025-10-17 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,1
 39589859638,sess_180,2025-10-17 00:04:00,Ethiopiques,Aster Aweke - Menew,skip,2
 39589859638,sess_180,2025-10-17 00:09:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,3
 39589859638,sess_180,2025-10-17 00:10:00,Ethiopiques,Hailu Mergia - Tezeta,play,4
 35712424625,sess_181,2025-10-11 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,1
 35712424625,sess_181,2025-10-11 00:02:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
 35712424625,sess_181,2025-10-11 00:10:00,Ethiopiques,Aster Aweke - Menew,skip,3
-35712424625,sess_181,2025-10-11 00:15:00,Ethiopiques,Neway Debebe - Yene Alem,skip,4
+35712424625,sess_181,2025-10-11 00:15:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,4
 14315021115,sess_182,2025-10-18 00:00:00,Pop,Billie Eilish - Ocean Eyes,play,1
 14315021115,sess_182,2025-10-18 00:04:00,Pop,Lana Del Rey - Video Games,skip,2
 14315021115,sess_182,2025-10-18 00:06:00,Pop,Taylor Swift - Anti-Hero,play,3
@@ -668,7 +668,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 36427479664,sess_185,2025-10-23 00:00:00,Ethiopiques,Aster Aweke - Menew,skip,1
 36427479664,sess_185,2025-10-23 00:02:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
 36427479664,sess_185,2025-10-23 00:04:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,3
-36427479664,sess_185,2025-10-23 00:09:00,Ethiopiques,Neway Debebe - Yene Alem,play,4
+36427479664,sess_185,2025-10-23 00:09:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,4
 39949321165,sess_186,2025-10-12 00:00:00,Rock,Foo Fighters - Everlong,skip,1
 39949321165,sess_186,2025-10-12 00:04:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,2
 39949321165,sess_186,2025-10-12 00:04:00,Rock,The Killers - Mr. Brightside,play,3
@@ -684,7 +684,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 97710704655,sess_189,2025-10-29 00:05:00,Pop,"Ariana Grande - thank u, next",skip,2
 97710704655,sess_189,2025-10-29 00:06:00,Pop,Billie Eilish - Ocean Eyes,skip,3
 60591125422,sess_190,2025-10-20 00:00:00,Ethiopiques,Hailu Mergia - Tezeta,skip,1
-60591125422,sess_190,2025-10-20 00:02:00,Ethiopiques,Neway Debebe - Yene Alem,play,2
+60591125422,sess_190,2025-10-20 00:02:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
 60591125422,sess_190,2025-10-20 00:04:00,Ethiopiques,Aster Aweke - Menew,play,3
 60591125422,sess_190,2025-10-20 00:06:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,4
 75492139488,sess_191,2025-10-12 00:00:00,Rock,The Strokes - Last Nite,skip,1
@@ -695,7 +695,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 19599251932,sess_192,2025-10-15 00:02:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,2
 19599251932,sess_192,2025-10-15 00:04:00,Rock,The Strokes - Last Nite,play,3
 85407303494,sess_193,2025-10-01 00:00:00,Ethiopiques,Aster Aweke - Menew,skip,1
-85407303494,sess_193,2025-10-01 00:04:00,Ethiopiques,Neway Debebe - Yene Alem,play,2
+85407303494,sess_193,2025-10-01 00:04:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
 85407303494,sess_193,2025-10-01 00:08:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,3
 24828513998,sess_194,2025-10-04 00:00:00,Pop,Lana Del Rey - Video Games,play,1
 24828513998,sess_194,2025-10-04 00:05:00,Pop,Taylor Swift - Anti-Hero,play,2
@@ -714,7 +714,7 @@ User_id,Session_id,DateTime,Category,SubCategory,Action,step
 87032437793,sess_197,2025-10-21 00:10:00,Pop,"Ariana Grande - thank u, next",skip,3
 87032437793,sess_197,2025-10-21 00:15:00,Pop,Billie Eilish - Ocean Eyes,play,4
 14919140796,sess_198,2025-10-22 00:00:00,Ethiopiques,Hailu Mergia - Tezeta,skip,1
-14919140796,sess_198,2025-10-22 00:03:00,Ethiopiques,Neway Debebe - Yene Alem,play,2
+14919140796,sess_198,2025-10-22 00:03:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
 14919140796,sess_198,2025-10-22 00:04:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,3
 73625758120,sess_199,2025-10-04 00:00:00,Jazz,Kamasi Washington - Truth,play,1
 73625758120,sess_199,2025-10-04 00:04:00,Jazz,John Coltrane - A Love Supreme,play,2

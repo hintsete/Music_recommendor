@@ -3,6 +3,7 @@ from neo4j import GraphDatabase
 import pandas as pd
 from dotenv import load_dotenv
 import os
+from llm_response import generate_music_response
 
 # ---- Setup ----
 load_dotenv()
@@ -15,45 +16,18 @@ st.set_page_config(page_title="SoundMatch", page_icon="🎵", layout="wide")
 # ---- Custom CSS ----
 st.markdown("""
     <style>
-        body {
-            background-color: #0e0e0e;
-            color: #ffffff;
-            font-family: 'Inter', sans-serif;
-        }
-        .main {
-            background-color: #0e0e0e;
-        }
-        h1, h2, h3, h4, h5 {
-            color: #fff;
-            font-weight: 700;
-        }
-        .stTextInput>div>div>input {
-            background-color: #1b1b1b;
-            color: white;
-            border-radius: 10px;
-        }
-        .stButton>button {
-            background-color: #008000;
-            color: white;
-            border-radius: 8px;
-            border: none;
-            padding: 0.5rem 1rem;
-            font-weight: 500;
-        }
-        .stButton>button:hover {
-            background-color: #00b300;
-        }
-        .recommendation-box {
-            background-color: #141414;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
-        }
-        .placeholder-icon {
-            font-size: 40px;
-            color: #555;
-            text-align: center;
-        }
+        body { background-color: #0e0e0e; color: #ffffff; font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4, h5 { color: #fff; font-weight: 700; }
+        .stTextInput>div>div>input { background-color: #1b1b1b; color: white; border-radius: 10px; }
+        .stButton>button { background-color: #008000; color: white; border-radius: 8px; border: none; padding: 0.5rem 1rem; font-weight: 500; }
+        .stButton>button:hover { background-color: #00b300; }
+        .recommendation-box { background-color: #141414; padding: 20px; border-radius: 12px; box-shadow: 0 0 10px rgba(0, 255, 0, 0.1); }
+        .rec-row { display: flex; align-items: center; margin: 10px 0; padding: 10px; background: #1b1b1b; border-radius: 8px; }
+        .rec-info { flex: 1; }
+        .rec-link { color: #1db954; text-decoration: none; }
+        .rec-link:hover { text-decoration: underline; }
+        .music-icon { font-size: 32px; margin-right: 15px; }
+        .llm-expl { background-color: #1b1b1b; padding: 15px; border-radius: 10px; color: #ddd; }
     </style>
 """, unsafe_allow_html=True)
 
@@ -75,7 +49,13 @@ with col2:
     st.markdown("### Top Recommendations")
     recommendation_box = st.container()
 
-# ---- Functionality ----
+# ---- Utility Functions ----
+def get_youtube_link(track):
+    search_query = f"{track} official audio"
+    yt_base = "https://www.youtube.com/results?search_query="
+    return yt_base + search_query.replace(' ', '+')
+
+# ---- Main Functionality ----
 if search:
     with driver.session() as session:
         recs = session.run("""
@@ -86,17 +66,34 @@ if search:
             LIMIT 5
         """, track=track).data()
 
-        if recs:
-            rec_df = pd.DataFrame(recs)
-            with recommendation_box:
-                st.dataframe(rec_df, use_container_width=True)
-        else:
-            with recommendation_box:
-                st.markdown("<div class='placeholder-icon'>🎵</div>", unsafe_allow_html=True)
+        with recommendation_box:
+            if recs:
+                st.markdown("<div class='recommendation-box'>", unsafe_allow_html=True)
+                for row in recs:
+                    rec_track = row['recommended_track']
+                    pop = row['popularity']
+                    yt_url = get_youtube_link(rec_track)
+                    st.markdown(f"""
+                        <div class='rec-row'>
+                            <div class='music-icon'>🎵</div>
+                            <div class='rec-info'>
+                                <strong>{rec_track}</strong> <span style='color:#888'>(Popularity: {pop})</span><br>
+                                <a href="{yt_url}" target="_blank" class="rec-link">▶️ Play on YouTube</a>
+                            </div>
+                        </div>
+                    """, unsafe_allow_html=True)
+                st.markdown("</div>", unsafe_allow_html=True)
+
+                # LLM Expl
+                with st.spinner("✨ Crafting AI message..."):
+                    llm_response = generate_music_response(track, recs)
+                st.markdown("---")
+                st.markdown("#### 🎶 AI Companion Says:")
+                st.markdown(f"<div class='llm-expl'>{llm_response}</div>", unsafe_allow_html=True)
+            else:
                 st.markdown("<p style='text-align:center; color:#777;'>No recommendations found — try another track.</p>", unsafe_allow_html=True)
 else:
     with recommendation_box:
-        st.markdown("<div class='placeholder-icon'>🎵</div>", unsafe_allow_html=True)
         st.markdown("<p style='text-align:center; color:#777;'>Search for a track to see recommendations</p>", unsafe_allow_html=True)
 
 driver.close()
