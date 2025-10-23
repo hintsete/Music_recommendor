@@ -13,7 +13,9 @@ uri = os.getenv('NEO4J_URI', 'bolt://localhost:7687')
 driver = GraphDatabase.driver(uri, auth=("neo4j", password))
 
 # Load your CSV files
-df = pd.read_csv('data/music_subset.csv')
+# df = pd.read_csv('data/music_subset.csv')
+df = pd.read_csv('data/train_music.csv')
+
 session_df = pd.read_csv('data/session_starts.csv')
 cat_df = pd.read_csv('data/categories_music.csv')
 

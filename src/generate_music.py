@@ -28,7 +28,7 @@ for session in range(num_sessions):
     session_start = base_time + timedelta(days=random.randint(0, 30))
     genre = random.choice(genres)
     available_tracks = len(artists_tracks[genre])
-    k = min(events_per_session[session], available_tracks)  # Fix: Cap to available tracks
+    k = min(events_per_session[session], available_tracks)  
     session_tracks = random.sample(artists_tracks[genre], k=k)  # Same genre per session
     
     for step in range(k):
@@ -37,9 +37,7 @@ for session in range(num_sessions):
         artist, track = session_tracks[step]
         action = random.choice(['play', 'skip'])
         subcategory = f"{artist} - {track}"
-        quantity = random.choice([1, 2]) if action == 'play' else np.nan
-        rate = random.uniform(0.99, 4.99) if pd.notna(quantity) else np.nan
-        total_price = quantity * rate if pd.notna(quantity) and pd.notna(rate) else np.nan
+        
         
         data.append({
             'User_id': user_id,

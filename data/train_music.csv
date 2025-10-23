@@ -1,0 +1,580 @@
+User_id,Session_id,DateTime,Category,SubCategory,Action,step
+22751741827,sess_001,2025-10-30 00:00:00,Pop,Taylor Swift - Anti-Hero,skip,1
+22751741827,sess_001,2025-10-30 00:02:00,Pop,"Ariana Grande - thank u, next",play,2
+22751741827,sess_001,2025-10-30 00:10:00,Pop,Billie Eilish - Ocean Eyes,skip,3
+22751741827,sess_001,2025-10-30 00:15:00,Pop,Lana Del Rey - Video Games,skip,4
+77510049482,sess_002,2025-10-05 00:00:00,Pop,Billie Eilish - Ocean Eyes,skip,1
+77510049482,sess_002,2025-10-05 00:02:00,Pop,Lana Del Rey - Video Games,play,2
+77510049482,sess_002,2025-10-05 00:06:00,Pop,"Ariana Grande - thank u, next",play,3
+91898675497,sess_003,2025-10-03 00:00:00,Pop,"Ariana Grande - thank u, next",play,1
+91898675497,sess_003,2025-10-03 00:04:00,Pop,Lana Del Rey - Video Games,skip,2
+91898675497,sess_003,2025-10-03 00:06:00,Pop,Billie Eilish - Ocean Eyes,skip,3
+45384886749,sess_004,2025-10-13 00:00:00,Pop,Billie Eilish - Ocean Eyes,play,1
+45384886749,sess_004,2025-10-13 00:02:00,Pop,Taylor Swift - Anti-Hero,play,2
+45384886749,sess_004,2025-10-13 00:06:00,Pop,"Ariana Grande - thank u, next",skip,3
+22373217409,sess_005,2025-10-29 00:00:00,Pop,Billie Eilish - Ocean Eyes,play,1
+22373217409,sess_005,2025-10-29 00:02:00,Pop,Taylor Swift - Anti-Hero,play,2
+22373217409,sess_005,2025-10-29 00:04:00,Pop,Lana Del Rey - Video Games,play,3
+22373217409,sess_005,2025-10-29 00:09:00,Pop,"Ariana Grande - thank u, next",skip,4
+79853278950,sess_006,2025-10-16 00:00:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,1
+79853278950,sess_006,2025-10-16 00:04:00,Hip Hop,J. Cole - Middle Child,play,2
+79853278950,sess_006,2025-10-16 00:09:00,Hip Hop,Kendrick Lamar - Love.,play,3
+79853278950,sess_006,2025-10-16 00:10:00,Hip Hop,Erykah Badu - On & On,play,4
+66470632823,sess_007,2025-10-05 00:00:00,Ethiopiques,Aster Aweke - Menew,play,1
+66470632823,sess_007,2025-10-05 00:05:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
+66470632823,sess_007,2025-10-05 00:06:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,3
+66470632823,sess_007,2025-10-05 00:06:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,4
+45425608546,sess_008,2025-10-06 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,1
+45425608546,sess_008,2025-10-06 00:03:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,2
+45425608546,sess_008,2025-10-06 00:10:00,Ethiopiques,Hailu Mergia - Tezeta,skip,3
+47681150998,sess_009,2025-10-12 00:00:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,1
+47681150998,sess_009,2025-10-12 00:03:00,Jazz,John Coltrane - A Love Supreme,skip,2
+47681150998,sess_009,2025-10-12 00:04:00,Jazz,Kamasi Washington - Truth,play,3
+47681150998,sess_009,2025-10-12 00:12:00,Jazz,Miles Davis - So What,skip,4
+25081447213,sess_010,2025-10-13 00:00:00,Jazz,Kamasi Washington - Truth,play,1
+25081447213,sess_010,2025-10-13 00:02:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,2
+25081447213,sess_010,2025-10-13 00:08:00,Jazz,Miles Davis - So What,play,3
+68698858057,sess_011,2025-10-11 00:00:00,Rock,Foo Fighters - Everlong,skip,1
+68698858057,sess_011,2025-10-11 00:04:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,2
+68698858057,sess_011,2025-10-11 00:05:00,Rock,The Killers - Mr. Brightside,play,3
+37002088812,sess_012,2025-10-14 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
+37002088812,sess_012,2025-10-14 00:03:00,Jazz,Kamasi Washington - Truth,play,2
+37002088812,sess_012,2025-10-14 00:08:00,Jazz,Herbie Hancock - Cantaloupe Island,play,3
+37002088812,sess_012,2025-10-14 00:09:00,Jazz,Miles Davis - So What,play,4
+93645073667,sess_013,2025-10-28 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,1
+93645073667,sess_013,2025-10-28 00:04:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,2
+93645073667,sess_013,2025-10-28 00:05:00,Ethiopiques,Hailu Mergia - Tezeta,play,3
+81708395052,sess_014,2025-10-15 00:00:00,Ethiopiques,Hailu Mergia - Tezeta,skip,1
+81708395052,sess_014,2025-10-15 00:04:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,2
+81708395052,sess_014,2025-10-15 00:10:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,3
+35328315961,sess_015,2025-10-24 00:00:00,Rock,The Killers - Mr. Brightside,play,1
+35328315961,sess_015,2025-10-24 00:04:00,Rock,The Strokes - Last Nite,play,2
+35328315961,sess_015,2025-10-24 00:04:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,3
+35328315961,sess_015,2025-10-24 00:09:00,Rock,Foo Fighters - Everlong,play,4
+84435568770,sess_016,2025-10-15 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,1
+84435568770,sess_016,2025-10-15 00:05:00,Rock,The Killers - Mr. Brightside,play,2
+84435568770,sess_016,2025-10-15 00:09:00,Rock,Foo Fighters - Everlong,skip,3
+84435568770,sess_016,2025-10-15 00:10:00,Rock,The Strokes - Last Nite,skip,4
+45302147135,sess_017,2025-10-14 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,1
+45302147135,sess_017,2025-10-14 00:02:00,Rock,The Strokes - Last Nite,skip,2
+45302147135,sess_017,2025-10-14 00:04:00,Rock,Foo Fighters - Everlong,play,3
+33457816221,sess_018,2025-10-02 00:00:00,Hip Hop,J. Cole - Middle Child,skip,1
+33457816221,sess_018,2025-10-02 00:05:00,Hip Hop,Erykah Badu - On & On,skip,2
+33457816221,sess_018,2025-10-02 00:06:00,Hip Hop,Kendrick Lamar - Love.,skip,3
+33457816221,sess_018,2025-10-02 00:10:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,4
+16611754494,sess_019,2025-10-31 00:00:00,Hip Hop,Erykah Badu - On & On,play,1
+16611754494,sess_019,2025-10-31 00:03:00,Hip Hop,Kendrick Lamar - Love.,play,2
+16611754494,sess_019,2025-10-31 00:04:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,3
+16611754494,sess_019,2025-10-31 00:12:00,Hip Hop,J. Cole - Middle Child,play,4
+24220803878,sess_020,2025-10-19 00:00:00,Ethiopiques,Aster Aweke - Menew,play,1
+24220803878,sess_020,2025-10-19 00:03:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
+24220803878,sess_020,2025-10-19 00:04:00,Ethiopiques,Hailu Mergia - Tezeta,play,3
+60085852771,sess_021,2025-10-03 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
+60085852771,sess_021,2025-10-03 00:04:00,Jazz,Miles Davis - So What,skip,2
+60085852771,sess_021,2025-10-03 00:06:00,Jazz,Kamasi Washington - Truth,skip,3
+60085852771,sess_021,2025-10-03 00:09:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,4
+86964171798,sess_022,2025-10-25 00:00:00,Rock,The Killers - Mr. Brightside,play,1
+86964171798,sess_022,2025-10-25 00:03:00,Rock,The Strokes - Last Nite,skip,2
+86964171798,sess_022,2025-10-25 00:06:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,3
+86964171798,sess_022,2025-10-25 00:10:00,Rock,Foo Fighters - Everlong,skip,4
+56604487565,sess_023,2025-10-06 00:00:00,Rock,The Strokes - Last Nite,skip,1
+56604487565,sess_023,2025-10-06 00:02:00,Rock,The Killers - Mr. Brightside,play,2
+56604487565,sess_023,2025-10-06 00:09:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,3
+56604487565,sess_023,2025-10-06 00:10:00,Rock,Foo Fighters - Everlong,skip,4
+72237603717,sess_024,2025-10-26 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,1
+72237603717,sess_024,2025-10-26 00:04:00,Ethiopiques,Hailu Mergia - Tezeta,skip,2
+72237603717,sess_024,2025-10-26 00:08:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,3
+55313573453,sess_025,2025-10-12 00:00:00,Rock,Foo Fighters - Everlong,play,1
+55313573453,sess_025,2025-10-12 00:03:00,Rock,The Strokes - Last Nite,play,2
+55313573453,sess_025,2025-10-12 00:06:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,3
+55313573453,sess_025,2025-10-12 00:08:00,Rock,The Killers - Mr. Brightside,skip,4
+49425401235,sess_026,2025-10-01 00:00:00,Jazz,Kamasi Washington - Truth,play,1
+49425401235,sess_026,2025-10-01 00:02:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,2
+49425401235,sess_026,2025-10-01 00:10:00,Jazz,Miles Davis - So What,skip,3
+49425401235,sess_026,2025-10-01 00:15:00,Jazz,John Coltrane - A Love Supreme,skip,4
+44580399705,sess_027,2025-10-31 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,1
+44580399705,sess_027,2025-10-31 00:04:00,Rock,The Killers - Mr. Brightside,play,2
+44580399705,sess_027,2025-10-31 00:10:00,Rock,The Strokes - Last Nite,play,3
+50556177902,sess_028,2025-10-28 00:00:00,Jazz,Herbie Hancock - Cantaloupe Island,play,1
+50556177902,sess_028,2025-10-28 00:02:00,Jazz,Kamasi Washington - Truth,play,2
+50556177902,sess_028,2025-10-28 00:04:00,Jazz,Miles Davis - So What,play,3
+94565205094,sess_029,2025-10-16 00:00:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,1
+94565205094,sess_029,2025-10-16 00:03:00,Hip Hop,J. Cole - Middle Child,skip,2
+94565205094,sess_029,2025-10-16 00:04:00,Hip Hop,Erykah Badu - On & On,play,3
+94565205094,sess_029,2025-10-16 00:09:00,Hip Hop,Kendrick Lamar - Love.,play,4
+92925561283,sess_030,2025-10-24 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
+92925561283,sess_030,2025-10-24 00:04:00,Jazz,Kamasi Washington - Truth,skip,2
+92925561283,sess_030,2025-10-24 00:10:00,Jazz,Miles Davis - So What,play,3
+92925561283,sess_030,2025-10-24 00:12:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,4
+18701023473,sess_031,2025-10-08 00:00:00,Jazz,Miles Davis - So What,skip,1
+18701023473,sess_031,2025-10-08 00:05:00,Jazz,John Coltrane - A Love Supreme,skip,2
+18701023473,sess_031,2025-10-08 00:06:00,Jazz,Kamasi Washington - Truth,skip,3
+18701023473,sess_031,2025-10-08 00:15:00,Jazz,Herbie Hancock - Cantaloupe Island,play,4
+54381221630,sess_032,2025-10-22 00:00:00,Ethiopiques,Hailu Mergia - Tezeta,skip,1
+54381221630,sess_032,2025-10-22 00:02:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,2
+54381221630,sess_032,2025-10-22 00:04:00,Ethiopiques,Aster Aweke - Menew,skip,3
+54381221630,sess_032,2025-10-22 00:12:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,4
+64857675642,sess_033,2025-10-28 00:00:00,Jazz,Miles Davis - So What,play,1
+64857675642,sess_033,2025-10-28 00:04:00,Jazz,Kamasi Washington - Truth,play,2
+64857675642,sess_033,2025-10-28 00:05:00,Jazz,John Coltrane - A Love Supreme,skip,3
+64857675642,sess_033,2025-10-28 00:12:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,4
+24966723213,sess_034,2025-10-01 00:00:00,Jazz,Kamasi Washington - Truth,skip,1
+24966723213,sess_034,2025-10-01 00:02:00,Jazz,John Coltrane - A Love Supreme,play,2
+24966723213,sess_034,2025-10-01 00:04:00,Jazz,Miles Davis - So What,play,3
+24966723213,sess_034,2025-10-01 00:12:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,4
+42092939595,sess_035,2025-10-15 00:00:00,Jazz,Kamasi Washington - Truth,skip,1
+42092939595,sess_035,2025-10-15 00:05:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,2
+42092939595,sess_035,2025-10-15 00:08:00,Jazz,Miles Davis - So What,play,3
+42092939595,sess_035,2025-10-15 00:15:00,Jazz,John Coltrane - A Love Supreme,play,4
+54431969018,sess_036,2025-10-18 00:00:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,1
+54431969018,sess_036,2025-10-18 00:03:00,Jazz,Kamasi Washington - Truth,skip,2
+54431969018,sess_036,2025-10-18 00:04:00,Jazz,John Coltrane - A Love Supreme,skip,3
+54431969018,sess_036,2025-10-18 00:15:00,Jazz,Miles Davis - So What,skip,4
+99424429816,sess_037,2025-10-05 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,1
+99424429816,sess_037,2025-10-05 00:03:00,Rock,The Killers - Mr. Brightside,skip,2
+99424429816,sess_037,2025-10-05 00:06:00,Rock,The Strokes - Last Nite,play,3
+99424429816,sess_037,2025-10-05 00:12:00,Rock,Foo Fighters - Everlong,skip,4
+97606523797,sess_038,2025-10-03 00:00:00,Hip Hop,J. Cole - Middle Child,play,1
+97606523797,sess_038,2025-10-03 00:02:00,Hip Hop,Erykah Badu - On & On,skip,2
+97606523797,sess_038,2025-10-03 00:04:00,Hip Hop,Kendrick Lamar - Love.,play,3
+97606523797,sess_038,2025-10-03 00:12:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,4
+48895735906,sess_039,2025-10-12 00:00:00,Hip Hop,J. Cole - Middle Child,play,1
+48895735906,sess_039,2025-10-12 00:05:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,2
+48895735906,sess_039,2025-10-12 00:06:00,Hip Hop,Kendrick Lamar - Love.,play,3
+48895735906,sess_039,2025-10-12 00:15:00,Hip Hop,Erykah Badu - On & On,skip,4
+12864059081,sess_040,2025-10-29 00:00:00,Rock,Foo Fighters - Everlong,skip,1
+12864059081,sess_040,2025-10-29 00:04:00,Rock,The Killers - Mr. Brightside,skip,2
+12864059081,sess_040,2025-10-29 00:08:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,3
+12864059081,sess_040,2025-10-29 00:12:00,Rock,The Strokes - Last Nite,play,4
+40522843390,sess_041,2025-10-13 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
+40522843390,sess_041,2025-10-13 00:04:00,Jazz,Herbie Hancock - Cantaloupe Island,play,2
+40522843390,sess_041,2025-10-13 00:09:00,Jazz,Miles Davis - So What,skip,3
+40522843390,sess_041,2025-10-13 00:10:00,Jazz,Kamasi Washington - Truth,skip,4
+96839963238,sess_042,2025-10-07 00:00:00,Jazz,John Coltrane - A Love Supreme,play,1
+96839963238,sess_042,2025-10-07 00:02:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,2
+96839963238,sess_042,2025-10-07 00:06:00,Jazz,Miles Davis - So What,play,3
+33259408672,sess_043,2025-10-07 00:00:00,Pop,Billie Eilish - Ocean Eyes,skip,1
+33259408672,sess_043,2025-10-07 00:05:00,Pop,"Ariana Grande - thank u, next",skip,2
+33259408672,sess_043,2025-10-07 00:08:00,Pop,Taylor Swift - Anti-Hero,play,3
+44215857886,sess_044,2025-10-28 00:00:00,Rock,Foo Fighters - Everlong,skip,1
+44215857886,sess_044,2025-10-28 00:02:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,2
+44215857886,sess_044,2025-10-28 00:08:00,Rock,The Strokes - Last Nite,skip,3
+64050274042,sess_045,2025-10-27 00:00:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,1
+64050274042,sess_045,2025-10-27 00:03:00,Hip Hop,Kendrick Lamar - Love.,play,2
+64050274042,sess_045,2025-10-27 00:08:00,Hip Hop,J. Cole - Middle Child,skip,3
+27680988521,sess_046,2025-10-02 00:00:00,Ethiopiques,Aster Aweke - Menew,play,1
+27680988521,sess_046,2025-10-02 00:04:00,Ethiopiques,Hailu Mergia - Tezeta,skip,2
+27680988521,sess_046,2025-10-02 00:06:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,3
+25697770038,sess_047,2025-10-27 00:00:00,Rock,The Killers - Mr. Brightside,play,1
+25697770038,sess_047,2025-10-27 00:03:00,Rock,The Strokes - Last Nite,skip,2
+25697770038,sess_047,2025-10-27 00:04:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,3
+15835459736,sess_048,2025-10-13 00:00:00,Hip Hop,Erykah Badu - On & On,play,1
+15835459736,sess_048,2025-10-13 00:04:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,2
+15835459736,sess_048,2025-10-13 00:06:00,Hip Hop,J. Cole - Middle Child,play,3
+53950394671,sess_049,2025-10-25 00:00:00,Pop,Lana Del Rey - Video Games,play,1
+53950394671,sess_049,2025-10-25 00:02:00,Pop,Taylor Swift - Anti-Hero,play,2
+53950394671,sess_049,2025-10-25 00:06:00,Pop,"Ariana Grande - thank u, next",skip,3
+53950394671,sess_049,2025-10-25 00:06:00,Pop,Billie Eilish - Ocean Eyes,play,4
+69020229659,sess_050,2025-10-17 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,1
+69020229659,sess_050,2025-10-17 00:03:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
+69020229659,sess_050,2025-10-17 00:04:00,Ethiopiques,Aster Aweke - Menew,play,3
+69020229659,sess_050,2025-10-17 00:15:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,4
+20495020293,sess_051,2025-10-29 00:00:00,Ethiopiques,Aster Aweke - Menew,skip,1
+20495020293,sess_051,2025-10-29 00:04:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,2
+20495020293,sess_051,2025-10-29 00:08:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,3
+20495020293,sess_051,2025-10-29 00:15:00,Ethiopiques,Hailu Mergia - Tezeta,play,4
+86317113819,sess_052,2025-10-24 00:00:00,Pop,"Ariana Grande - thank u, next",skip,1
+86317113819,sess_052,2025-10-24 00:05:00,Pop,Taylor Swift - Anti-Hero,skip,2
+86317113819,sess_052,2025-10-24 00:10:00,Pop,Lana Del Rey - Video Games,play,3
+47216354905,sess_053,2025-10-12 00:00:00,Pop,"Ariana Grande - thank u, next",play,1
+47216354905,sess_053,2025-10-12 00:04:00,Pop,Lana Del Rey - Video Games,play,2
+47216354905,sess_053,2025-10-12 00:08:00,Pop,Billie Eilish - Ocean Eyes,play,3
+69057021183,sess_054,2025-10-28 00:00:00,Ethiopiques,Aster Aweke - Menew,play,1
+69057021183,sess_054,2025-10-28 00:03:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
+69057021183,sess_054,2025-10-28 00:08:00,Ethiopiques,Hailu Mergia - Tezeta,play,3
+69057021183,sess_054,2025-10-28 00:15:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,4
+51929229606,sess_055,2025-10-30 00:00:00,Hip Hop,Kendrick Lamar - Love.,play,1
+51929229606,sess_055,2025-10-30 00:02:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,2
+51929229606,sess_055,2025-10-30 00:09:00,Hip Hop,Erykah Badu - On & On,skip,3
+51929229606,sess_055,2025-10-30 00:10:00,Hip Hop,J. Cole - Middle Child,skip,4
+91352725415,sess_056,2025-10-20 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,1
+91352725415,sess_056,2025-10-20 00:05:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,2
+91352725415,sess_056,2025-10-20 00:10:00,Ethiopiques,Aster Aweke - Menew,skip,3
+91352725415,sess_056,2025-10-20 00:15:00,Ethiopiques,Hailu Mergia - Tezeta,skip,4
+25085412535,sess_057,2025-10-12 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,1
+25085412535,sess_057,2025-10-12 00:02:00,Rock,The Strokes - Last Nite,play,2
+25085412535,sess_057,2025-10-12 00:06:00,Rock,Foo Fighters - Everlong,play,3
+10515328854,sess_058,2025-10-16 00:00:00,Rock,The Strokes - Last Nite,play,1
+10515328854,sess_058,2025-10-16 00:02:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,2
+10515328854,sess_058,2025-10-16 00:04:00,Rock,The Killers - Mr. Brightside,skip,3
+10515328854,sess_058,2025-10-16 00:06:00,Rock,Foo Fighters - Everlong,skip,4
+68307441616,sess_059,2025-10-19 00:00:00,Rock,The Killers - Mr. Brightside,play,1
+68307441616,sess_059,2025-10-19 00:04:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,2
+68307441616,sess_059,2025-10-19 00:05:00,Rock,The Strokes - Last Nite,skip,3
+26511934593,sess_060,2025-10-08 00:00:00,Rock,The Killers - Mr. Brightside,skip,1
+26511934593,sess_060,2025-10-08 00:03:00,Rock,Foo Fighters - Everlong,skip,2
+26511934593,sess_060,2025-10-08 00:06:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,3
+26511934593,sess_060,2025-10-08 00:09:00,Rock,The Strokes - Last Nite,skip,4
+40699094081,sess_061,2025-10-04 00:00:00,Pop,Billie Eilish - Ocean Eyes,play,1
+40699094081,sess_061,2025-10-04 00:05:00,Pop,Lana Del Rey - Video Games,skip,2
+40699094081,sess_061,2025-10-04 00:08:00,Pop,"Ariana Grande - thank u, next",play,3
+40699094081,sess_061,2025-10-04 00:15:00,Pop,Taylor Swift - Anti-Hero,skip,4
+47779948312,sess_062,2025-10-19 00:00:00,Ethiopiques,Aster Aweke - Menew,skip,1
+47779948312,sess_062,2025-10-19 00:02:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
+47779948312,sess_062,2025-10-19 00:04:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,3
+47779948312,sess_062,2025-10-19 00:06:00,Ethiopiques,Hailu Mergia - Tezeta,skip,4
+98354592695,sess_063,2025-10-07 00:00:00,Hip Hop,J. Cole - Middle Child,play,1
+98354592695,sess_063,2025-10-07 00:02:00,Hip Hop,Kendrick Lamar - Love.,play,2
+98354592695,sess_063,2025-10-07 00:09:00,Hip Hop,Erykah Badu - On & On,skip,3
+98354592695,sess_063,2025-10-07 00:10:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,4
+62754626239,sess_064,2025-10-14 00:00:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,1
+62754626239,sess_064,2025-10-14 00:03:00,Hip Hop,Kendrick Lamar - Love.,skip,2
+62754626239,sess_064,2025-10-14 00:04:00,Hip Hop,Erykah Badu - On & On,play,3
+62754626239,sess_064,2025-10-14 00:15:00,Hip Hop,J. Cole - Middle Child,play,4
+97517171228,sess_065,2025-10-26 00:00:00,Hip Hop,Erykah Badu - On & On,play,1
+97517171228,sess_065,2025-10-26 00:03:00,Hip Hop,Kendrick Lamar - Love.,skip,2
+97517171228,sess_065,2025-10-26 00:09:00,Hip Hop,J. Cole - Middle Child,play,3
+97517171228,sess_065,2025-10-26 00:10:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,4
+79153873002,sess_066,2025-10-25 00:00:00,Jazz,Miles Davis - So What,play,1
+79153873002,sess_066,2025-10-25 00:03:00,Jazz,John Coltrane - A Love Supreme,skip,2
+79153873002,sess_066,2025-10-25 00:04:00,Jazz,Kamasi Washington - Truth,skip,3
+79153873002,sess_066,2025-10-25 00:12:00,Jazz,Herbie Hancock - Cantaloupe Island,play,4
+73495939049,sess_067,2025-10-08 00:00:00,Jazz,Kamasi Washington - Truth,skip,1
+73495939049,sess_067,2025-10-08 00:05:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,2
+73495939049,sess_067,2025-10-08 00:08:00,Jazz,John Coltrane - A Love Supreme,skip,3
+80879444533,sess_068,2025-10-14 00:00:00,Pop,Taylor Swift - Anti-Hero,play,1
+80879444533,sess_068,2025-10-14 00:02:00,Pop,Billie Eilish - Ocean Eyes,play,2
+80879444533,sess_068,2025-10-14 00:06:00,Pop,Lana Del Rey - Video Games,skip,3
+29384702407,sess_069,2025-10-27 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,1
+29384702407,sess_069,2025-10-27 00:04:00,Rock,The Killers - Mr. Brightside,play,2
+29384702407,sess_069,2025-10-27 00:08:00,Rock,The Strokes - Last Nite,play,3
+98968977393,sess_070,2025-10-11 00:00:00,Pop,Taylor Swift - Anti-Hero,play,1
+98968977393,sess_070,2025-10-11 00:02:00,Pop,Lana Del Rey - Video Games,play,2
+98968977393,sess_070,2025-10-11 00:06:00,Pop,"Ariana Grande - thank u, next",skip,3
+41302157929,sess_071,2025-10-10 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,1
+41302157929,sess_071,2025-10-10 00:05:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
+41302157929,sess_071,2025-10-10 00:08:00,Ethiopiques,Hailu Mergia - Tezeta,skip,3
+91611097405,sess_072,2025-10-12 00:00:00,Pop,"Ariana Grande - thank u, next",play,1
+91611097405,sess_072,2025-10-12 00:02:00,Pop,Lana Del Rey - Video Games,skip,2
+91611097405,sess_072,2025-10-12 00:06:00,Pop,Taylor Swift - Anti-Hero,skip,3
+91611097405,sess_072,2025-10-12 00:08:00,Pop,Billie Eilish - Ocean Eyes,skip,4
+21976602296,sess_073,2025-10-12 00:00:00,Pop,Lana Del Rey - Video Games,skip,1
+21976602296,sess_073,2025-10-12 00:04:00,Pop,Billie Eilish - Ocean Eyes,play,2
+21976602296,sess_073,2025-10-12 00:10:00,Pop,Taylor Swift - Anti-Hero,play,3
+21976602296,sess_073,2025-10-12 00:15:00,Pop,"Ariana Grande - thank u, next",play,4
+39167591973,sess_074,2025-10-29 00:00:00,Ethiopiques,Aster Aweke - Menew,skip,1
+39167591973,sess_074,2025-10-29 00:02:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
+39167591973,sess_074,2025-10-29 00:04:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,3
+24058358297,sess_075,2025-10-26 00:00:00,Hip Hop,J. Cole - Middle Child,play,1
+24058358297,sess_075,2025-10-26 00:04:00,Hip Hop,Erykah Badu - On & On,skip,2
+24058358297,sess_075,2025-10-26 00:04:00,Hip Hop,Kendrick Lamar - Love.,skip,3
+24058358297,sess_075,2025-10-26 00:06:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,4
+35006765390,sess_076,2025-10-18 00:00:00,Hip Hop,Kendrick Lamar - Love.,skip,1
+35006765390,sess_076,2025-10-18 00:05:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,2
+35006765390,sess_076,2025-10-18 00:06:00,Hip Hop,J. Cole - Middle Child,skip,3
+35006765390,sess_076,2025-10-18 00:12:00,Hip Hop,Erykah Badu - On & On,skip,4
+93118609331,sess_077,2025-10-14 00:00:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,1
+93118609331,sess_077,2025-10-14 00:05:00,Hip Hop,J. Cole - Middle Child,play,2
+93118609331,sess_077,2025-10-14 00:08:00,Hip Hop,Erykah Badu - On & On,skip,3
+93118609331,sess_077,2025-10-14 00:15:00,Hip Hop,Kendrick Lamar - Love.,play,4
+61319806303,sess_078,2025-10-12 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,1
+61319806303,sess_078,2025-10-12 00:04:00,Rock,Foo Fighters - Everlong,play,2
+61319806303,sess_078,2025-10-12 00:06:00,Rock,The Killers - Mr. Brightside,skip,3
+61319806303,sess_078,2025-10-12 00:15:00,Rock,The Strokes - Last Nite,play,4
+73153361535,sess_079,2025-10-07 00:00:00,Jazz,John Coltrane - A Love Supreme,play,1
+73153361535,sess_079,2025-10-07 00:05:00,Jazz,Herbie Hancock - Cantaloupe Island,play,2
+73153361535,sess_079,2025-10-07 00:08:00,Jazz,Kamasi Washington - Truth,skip,3
+21637387776,sess_080,2025-10-18 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
+21637387776,sess_080,2025-10-18 00:03:00,Jazz,Kamasi Washington - Truth,play,2
+21637387776,sess_080,2025-10-18 00:06:00,Jazz,Miles Davis - So What,skip,3
+57357529299,sess_081,2025-10-18 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
+57357529299,sess_081,2025-10-18 00:05:00,Jazz,Kamasi Washington - Truth,skip,2
+57357529299,sess_081,2025-10-18 00:06:00,Jazz,Herbie Hancock - Cantaloupe Island,play,3
+57357529299,sess_081,2025-10-18 00:10:00,Jazz,Miles Davis - So What,skip,4
+72062167881,sess_082,2025-10-22 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
+72062167881,sess_082,2025-10-22 00:02:00,Jazz,Miles Davis - So What,play,2
+72062167881,sess_082,2025-10-22 00:06:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,3
+58213027762,sess_083,2025-10-31 00:00:00,Jazz,John Coltrane - A Love Supreme,play,1
+58213027762,sess_083,2025-10-31 00:02:00,Jazz,Miles Davis - So What,play,2
+58213027762,sess_083,2025-10-31 00:08:00,Jazz,Kamasi Washington - Truth,play,3
+58213027762,sess_083,2025-10-31 00:12:00,Jazz,Herbie Hancock - Cantaloupe Island,play,4
+74554586390,sess_084,2025-10-29 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
+74554586390,sess_084,2025-10-29 00:04:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,2
+74554586390,sess_084,2025-10-29 00:04:00,Jazz,Kamasi Washington - Truth,play,3
+74554586390,sess_084,2025-10-29 00:15:00,Jazz,Miles Davis - So What,skip,4
+53825945130,sess_085,2025-10-20 00:00:00,Pop,Billie Eilish - Ocean Eyes,play,1
+53825945130,sess_085,2025-10-20 00:02:00,Pop,"Ariana Grande - thank u, next",skip,2
+53825945130,sess_085,2025-10-20 00:06:00,Pop,Taylor Swift - Anti-Hero,skip,3
+53825945130,sess_085,2025-10-20 00:06:00,Pop,Lana Del Rey - Video Games,skip,4
+41995771245,sess_086,2025-10-05 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,1
+41995771245,sess_086,2025-10-05 00:04:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
+41995771245,sess_086,2025-10-05 00:10:00,Ethiopiques,Aster Aweke - Menew,skip,3
+52430306887,sess_087,2025-10-16 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,1
+52430306887,sess_087,2025-10-16 00:02:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
+52430306887,sess_087,2025-10-16 00:06:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,3
+52430306887,sess_087,2025-10-16 00:10:00,Ethiopiques,Aster Aweke - Menew,skip,4
+58976603325,sess_088,2025-10-02 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,1
+58976603325,sess_088,2025-10-02 00:04:00,Rock,Foo Fighters - Everlong,play,2
+58976603325,sess_088,2025-10-02 00:10:00,Rock,The Killers - Mr. Brightside,skip,3
+58976603325,sess_088,2025-10-02 00:12:00,Rock,The Strokes - Last Nite,skip,4
+30422419911,sess_089,2025-10-07 00:00:00,Jazz,Herbie Hancock - Cantaloupe Island,play,1
+30422419911,sess_089,2025-10-07 00:05:00,Jazz,John Coltrane - A Love Supreme,skip,2
+30422419911,sess_089,2025-10-07 00:06:00,Jazz,Miles Davis - So What,play,3
+32842912545,sess_090,2025-10-13 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
+32842912545,sess_090,2025-10-13 00:04:00,Jazz,Kamasi Washington - Truth,skip,2
+32842912545,sess_090,2025-10-13 00:05:00,Jazz,Herbie Hancock - Cantaloupe Island,play,3
+51161687268,sess_091,2025-10-26 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,1
+51161687268,sess_091,2025-10-26 00:03:00,Ethiopiques,Hailu Mergia - Tezeta,skip,2
+51161687268,sess_091,2025-10-26 00:06:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,3
+25893616293,sess_092,2025-10-07 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,1
+25893616293,sess_092,2025-10-07 00:05:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
+25893616293,sess_092,2025-10-07 00:08:00,Ethiopiques,Aster Aweke - Menew,skip,3
+25893616293,sess_092,2025-10-07 00:15:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,4
+35583769396,sess_093,2025-10-15 00:00:00,Jazz,John Coltrane - A Love Supreme,play,1
+35583769396,sess_093,2025-10-15 00:04:00,Jazz,Herbie Hancock - Cantaloupe Island,play,2
+35583769396,sess_093,2025-10-15 00:06:00,Jazz,Kamasi Washington - Truth,skip,3
+35583769396,sess_093,2025-10-15 00:12:00,Jazz,Miles Davis - So What,skip,4
+84512542266,sess_094,2025-10-30 00:00:00,Hip Hop,Kendrick Lamar - Love.,play,1
+84512542266,sess_094,2025-10-30 00:02:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,2
+84512542266,sess_094,2025-10-30 00:10:00,Hip Hop,Erykah Badu - On & On,skip,3
+84512542266,sess_094,2025-10-30 00:15:00,Hip Hop,J. Cole - Middle Child,play,4
+28346474523,sess_095,2025-10-04 00:00:00,Jazz,Kamasi Washington - Truth,play,1
+28346474523,sess_095,2025-10-04 00:04:00,Jazz,Miles Davis - So What,skip,2
+28346474523,sess_095,2025-10-04 00:04:00,Jazz,John Coltrane - A Love Supreme,play,3
+66512926608,sess_096,2025-10-21 00:00:00,Rock,The Killers - Mr. Brightside,skip,1
+66512926608,sess_096,2025-10-21 00:02:00,Rock,Foo Fighters - Everlong,play,2
+66512926608,sess_096,2025-10-21 00:04:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,3
+66512926608,sess_096,2025-10-21 00:09:00,Rock,The Strokes - Last Nite,play,4
+10160916026,sess_097,2025-10-10 00:00:00,Jazz,Miles Davis - So What,play,1
+10160916026,sess_097,2025-10-10 00:02:00,Jazz,Kamasi Washington - Truth,skip,2
+10160916026,sess_097,2025-10-10 00:06:00,Jazz,John Coltrane - A Love Supreme,skip,3
+10160916026,sess_097,2025-10-10 00:12:00,Jazz,Herbie Hancock - Cantaloupe Island,play,4
+52051026936,sess_098,2025-10-19 00:00:00,Pop,Taylor Swift - Anti-Hero,play,1
+52051026936,sess_098,2025-10-19 00:03:00,Pop,Billie Eilish - Ocean Eyes,play,2
+52051026936,sess_098,2025-10-19 00:06:00,Pop,"Ariana Grande - thank u, next",play,3
+52051026936,sess_098,2025-10-19 00:15:00,Pop,Lana Del Rey - Video Games,skip,4
+57047221330,sess_099,2025-10-10 00:00:00,Jazz,Miles Davis - So What,play,1
+57047221330,sess_099,2025-10-10 00:04:00,Jazz,John Coltrane - A Love Supreme,skip,2
+57047221330,sess_099,2025-10-10 00:05:00,Jazz,Kamasi Washington - Truth,skip,3
+57047221330,sess_099,2025-10-10 00:12:00,Jazz,Herbie Hancock - Cantaloupe Island,play,4
+29233644807,sess_100,2025-10-15 00:00:00,Jazz,John Coltrane - A Love Supreme,play,1
+29233644807,sess_100,2025-10-15 00:04:00,Jazz,Kamasi Washington - Truth,play,2
+29233644807,sess_100,2025-10-15 00:06:00,Jazz,Herbie Hancock - Cantaloupe Island,play,3
+29233644807,sess_100,2025-10-15 00:15:00,Jazz,Miles Davis - So What,play,4
+20689434745,sess_101,2025-10-29 00:00:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,1
+20689434745,sess_101,2025-10-29 00:05:00,Jazz,Miles Davis - So What,play,2
+20689434745,sess_101,2025-10-29 00:08:00,Jazz,Kamasi Washington - Truth,play,3
+88245290322,sess_102,2025-10-03 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,1
+88245290322,sess_102,2025-10-03 00:02:00,Ethiopiques,Hailu Mergia - Tezeta,skip,2
+88245290322,sess_102,2025-10-03 00:10:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,3
+88245290322,sess_102,2025-10-03 00:15:00,Ethiopiques,Aster Aweke - Menew,skip,4
+71772279600,sess_103,2025-10-28 00:00:00,Rock,The Killers - Mr. Brightside,play,1
+71772279600,sess_103,2025-10-28 00:03:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,2
+71772279600,sess_103,2025-10-28 00:10:00,Rock,Foo Fighters - Everlong,skip,3
+71772279600,sess_103,2025-10-28 00:15:00,Rock,The Strokes - Last Nite,play,4
+45025979612,sess_104,2025-10-07 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,1
+45025979612,sess_104,2025-10-07 00:02:00,Ethiopiques,Aster Aweke - Menew,skip,2
+45025979612,sess_104,2025-10-07 00:04:00,Ethiopiques,Hailu Mergia - Tezeta,play,3
+45025979612,sess_104,2025-10-07 00:09:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,4
+52921684555,sess_105,2025-10-08 00:00:00,Jazz,John Coltrane - A Love Supreme,skip,1
+52921684555,sess_105,2025-10-08 00:03:00,Jazz,Herbie Hancock - Cantaloupe Island,play,2
+52921684555,sess_105,2025-10-08 00:04:00,Jazz,Kamasi Washington - Truth,play,3
+55202224643,sess_106,2025-10-23 00:00:00,Rock,The Killers - Mr. Brightside,skip,1
+55202224643,sess_106,2025-10-23 00:03:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,2
+55202224643,sess_106,2025-10-23 00:06:00,Rock,The Strokes - Last Nite,skip,3
+55202224643,sess_106,2025-10-23 00:06:00,Rock,Foo Fighters - Everlong,skip,4
+69991184887,sess_107,2025-10-18 00:00:00,Jazz,Kamasi Washington - Truth,play,1
+69991184887,sess_107,2025-10-18 00:04:00,Jazz,Miles Davis - So What,play,2
+69991184887,sess_107,2025-10-18 00:05:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,3
+94497777476,sess_108,2025-10-20 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,1
+94497777476,sess_108,2025-10-20 00:04:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
+94497777476,sess_108,2025-10-20 00:04:00,Ethiopiques,Aster Aweke - Menew,skip,3
+94497777476,sess_108,2025-10-20 00:09:00,Ethiopiques,Hailu Mergia - Tezeta,play,4
+55320835486,sess_109,2025-10-25 00:00:00,Hip Hop,J. Cole - Middle Child,skip,1
+55320835486,sess_109,2025-10-25 00:04:00,Hip Hop,Kendrick Lamar - Love.,skip,2
+55320835486,sess_109,2025-10-25 00:05:00,Hip Hop,Erykah Badu - On & On,skip,3
+55320835486,sess_109,2025-10-25 00:12:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,4
+87505757671,sess_110,2025-10-28 00:00:00,Pop,Taylor Swift - Anti-Hero,play,1
+87505757671,sess_110,2025-10-28 00:05:00,Pop,Lana Del Rey - Video Games,play,2
+87505757671,sess_110,2025-10-28 00:08:00,Pop,"Ariana Grande - thank u, next",skip,3
+87505757671,sess_110,2025-10-28 00:15:00,Pop,Billie Eilish - Ocean Eyes,skip,4
+33454081960,sess_111,2025-10-24 00:00:00,Hip Hop,Erykah Badu - On & On,play,1
+33454081960,sess_111,2025-10-24 00:02:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,2
+33454081960,sess_111,2025-10-24 00:06:00,Hip Hop,J. Cole - Middle Child,play,3
+33454081960,sess_111,2025-10-24 00:15:00,Hip Hop,Kendrick Lamar - Love.,skip,4
+91864009895,sess_112,2025-10-21 00:00:00,Jazz,Herbie Hancock - Cantaloupe Island,play,1
+91864009895,sess_112,2025-10-21 00:04:00,Jazz,John Coltrane - A Love Supreme,skip,2
+91864009895,sess_112,2025-10-21 00:04:00,Jazz,Kamasi Washington - Truth,skip,3
+35382283328,sess_113,2025-10-04 00:00:00,Ethiopiques,Hailu Mergia - Tezeta,skip,1
+35382283328,sess_113,2025-10-04 00:05:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,2
+35382283328,sess_113,2025-10-04 00:06:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,3
+35382283328,sess_113,2025-10-04 00:10:00,Ethiopiques,Aster Aweke - Menew,play,4
+84634375004,sess_114,2025-10-16 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,1
+84634375004,sess_114,2025-10-16 00:04:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
+84634375004,sess_114,2025-10-16 00:05:00,Ethiopiques,Aster Aweke - Menew,skip,3
+91121428035,sess_115,2025-10-16 00:00:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,1
+91121428035,sess_115,2025-10-16 00:02:00,Hip Hop,J. Cole - Middle Child,play,2
+91121428035,sess_115,2025-10-16 00:09:00,Hip Hop,Kendrick Lamar - Love.,skip,3
+91121428035,sess_115,2025-10-16 00:10:00,Hip Hop,Erykah Badu - On & On,play,4
+55271370941,sess_116,2025-10-13 00:00:00,Pop,Lana Del Rey - Video Games,skip,1
+55271370941,sess_116,2025-10-13 00:03:00,Pop,Billie Eilish - Ocean Eyes,play,2
+55271370941,sess_116,2025-10-13 00:06:00,Pop,"Ariana Grande - thank u, next",skip,3
+55271370941,sess_116,2025-10-13 00:10:00,Pop,Taylor Swift - Anti-Hero,skip,4
+76359607781,sess_117,2025-10-08 00:00:00,Hip Hop,J. Cole - Middle Child,play,1
+76359607781,sess_117,2025-10-08 00:02:00,Hip Hop,Erykah Badu - On & On,play,2
+76359607781,sess_117,2025-10-08 00:06:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,3
+58604762909,sess_118,2025-10-04 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,1
+58604762909,sess_118,2025-10-04 00:05:00,Ethiopiques,Hailu Mergia - Tezeta,skip,2
+58604762909,sess_118,2025-10-04 00:06:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,3
+58604762909,sess_118,2025-10-04 00:10:00,Ethiopiques,Aster Aweke - Menew,play,4
+65249248871,sess_119,2025-10-01 00:00:00,Hip Hop,J. Cole - Middle Child,skip,1
+65249248871,sess_119,2025-10-01 00:03:00,Hip Hop,Erykah Badu - On & On,play,2
+65249248871,sess_119,2025-10-01 00:10:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,3
+65249248871,sess_119,2025-10-01 00:12:00,Hip Hop,Kendrick Lamar - Love.,skip,4
+75711935556,sess_120,2025-10-26 00:00:00,Ethiopiques,Aster Aweke - Menew,play,1
+75711935556,sess_120,2025-10-26 00:04:00,Ethiopiques,Hailu Mergia - Tezeta,play,2
+75711935556,sess_120,2025-10-26 00:10:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,3
+54840416004,sess_121,2025-10-14 00:00:00,Jazz,Kamasi Washington - Truth,skip,1
+54840416004,sess_121,2025-10-14 00:03:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,2
+54840416004,sess_121,2025-10-14 00:08:00,Jazz,John Coltrane - A Love Supreme,skip,3
+54840416004,sess_121,2025-10-14 00:15:00,Jazz,Miles Davis - So What,play,4
+58932283795,sess_122,2025-10-04 00:00:00,Jazz,Kamasi Washington - Truth,play,1
+58932283795,sess_122,2025-10-04 00:02:00,Jazz,John Coltrane - A Love Supreme,skip,2
+58932283795,sess_122,2025-10-04 00:09:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,3
+58932283795,sess_122,2025-10-04 00:10:00,Jazz,Miles Davis - So What,play,4
+64928666456,sess_123,2025-10-03 00:00:00,Rock,The Killers - Mr. Brightside,skip,1
+64928666456,sess_123,2025-10-03 00:02:00,Rock,Foo Fighters - Everlong,play,2
+64928666456,sess_123,2025-10-03 00:08:00,Rock,The Strokes - Last Nite,play,3
+64928666456,sess_123,2025-10-03 00:15:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,4
+24733694376,sess_124,2025-10-01 00:00:00,Ethiopiques,Aster Aweke - Menew,skip,1
+24733694376,sess_124,2025-10-01 00:05:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,2
+24733694376,sess_124,2025-10-01 00:06:00,Ethiopiques,Hailu Mergia - Tezeta,play,3
+24733694376,sess_124,2025-10-01 00:10:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,4
+71603002323,sess_125,2025-10-26 00:00:00,Pop,"Ariana Grande - thank u, next",skip,1
+71603002323,sess_125,2025-10-26 00:04:00,Pop,Billie Eilish - Ocean Eyes,skip,2
+71603002323,sess_125,2025-10-26 00:05:00,Pop,Taylor Swift - Anti-Hero,skip,3
+25937674416,sess_126,2025-10-01 00:00:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,1
+25937674416,sess_126,2025-10-01 00:05:00,Hip Hop,Kendrick Lamar - Love.,skip,2
+25937674416,sess_126,2025-10-01 00:06:00,Hip Hop,J. Cole - Middle Child,skip,3
+34179636452,sess_127,2025-10-06 00:00:00,Rock,The Killers - Mr. Brightside,skip,1
+34179636452,sess_127,2025-10-06 00:04:00,Rock,Foo Fighters - Everlong,play,2
+34179636452,sess_127,2025-10-06 00:05:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,3
+70975969727,sess_128,2025-10-04 00:00:00,Hip Hop,J. Cole - Middle Child,play,1
+70975969727,sess_128,2025-10-04 00:04:00,Hip Hop,Erykah Badu - On & On,play,2
+70975969727,sess_128,2025-10-04 00:05:00,Hip Hop,Kendrick Lamar - Love.,play,3
+70975969727,sess_128,2025-10-04 00:12:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,4
+79326607066,sess_129,2025-10-13 00:00:00,Rock,The Strokes - Last Nite,skip,1
+79326607066,sess_129,2025-10-13 00:03:00,Rock,Foo Fighters - Everlong,play,2
+79326607066,sess_129,2025-10-13 00:06:00,Rock,The Killers - Mr. Brightside,skip,3
+79326607066,sess_129,2025-10-13 00:15:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,4
+29261248669,sess_130,2025-10-07 00:00:00,Rock,The Killers - Mr. Brightside,skip,1
+29261248669,sess_130,2025-10-07 00:03:00,Rock,The Strokes - Last Nite,play,2
+29261248669,sess_130,2025-10-07 00:06:00,Rock,Foo Fighters - Everlong,skip,3
+29261248669,sess_130,2025-10-07 00:06:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,4
+83980139163,sess_131,2025-10-10 00:00:00,Pop,"Ariana Grande - thank u, next",play,1
+83980139163,sess_131,2025-10-10 00:04:00,Pop,Billie Eilish - Ocean Eyes,play,2
+83980139163,sess_131,2025-10-10 00:10:00,Pop,Taylor Swift - Anti-Hero,play,3
+18586982545,sess_132,2025-10-15 00:00:00,Hip Hop,Kendrick Lamar - Love.,play,1
+18586982545,sess_132,2025-10-15 00:04:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,2
+18586982545,sess_132,2025-10-15 00:06:00,Hip Hop,Erykah Badu - On & On,play,3
+17754307895,sess_133,2025-10-19 00:00:00,Hip Hop,Kendrick Lamar - Love.,skip,1
+17754307895,sess_133,2025-10-19 00:04:00,Hip Hop,J. Cole - Middle Child,play,2
+17754307895,sess_133,2025-10-19 00:09:00,Hip Hop,Erykah Badu - On & On,play,3
+17754307895,sess_133,2025-10-19 00:10:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,4
+76111146309,sess_134,2025-10-05 00:00:00,Jazz,John Coltrane - A Love Supreme,play,1
+76111146309,sess_134,2025-10-05 00:04:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,2
+76111146309,sess_134,2025-10-05 00:10:00,Jazz,Kamasi Washington - Truth,skip,3
+76111146309,sess_134,2025-10-05 00:12:00,Jazz,Miles Davis - So What,play,4
+97868370474,sess_135,2025-10-22 00:00:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,skip,1
+97868370474,sess_135,2025-10-22 00:03:00,Hip Hop,Kendrick Lamar - Love.,skip,2
+97868370474,sess_135,2025-10-22 00:08:00,Hip Hop,Erykah Badu - On & On,skip,3
+52212414414,sess_136,2025-10-11 00:00:00,Jazz,Kamasi Washington - Truth,play,1
+52212414414,sess_136,2025-10-11 00:05:00,Jazz,John Coltrane - A Love Supreme,play,2
+52212414414,sess_136,2025-10-11 00:06:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,3
+52212414414,sess_136,2025-10-11 00:15:00,Jazz,Miles Davis - So What,play,4
+51446422377,sess_137,2025-10-06 00:00:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,1
+51446422377,sess_137,2025-10-06 00:03:00,Hip Hop,Kendrick Lamar - Love.,play,2
+51446422377,sess_137,2025-10-06 00:06:00,Hip Hop,Erykah Badu - On & On,skip,3
+21405222211,sess_138,2025-10-23 00:00:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,1
+21405222211,sess_138,2025-10-23 00:04:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
+21405222211,sess_138,2025-10-23 00:06:00,Ethiopiques,Aster Aweke - Menew,play,3
+21405222211,sess_138,2025-10-23 00:10:00,Ethiopiques,Hailu Mergia - Tezeta,play,4
+28465161052,sess_139,2025-10-13 00:00:00,Pop,Taylor Swift - Anti-Hero,skip,1
+28465161052,sess_139,2025-10-13 00:03:00,Pop,Lana Del Rey - Video Games,play,2
+28465161052,sess_139,2025-10-13 00:09:00,Pop,"Ariana Grande - thank u, next",play,3
+28465161052,sess_139,2025-10-13 00:10:00,Pop,Billie Eilish - Ocean Eyes,play,4
+54793883581,sess_140,2025-10-26 00:00:00,Pop,Taylor Swift - Anti-Hero,skip,1
+54793883581,sess_140,2025-10-26 00:02:00,Pop,"Ariana Grande - thank u, next",skip,2
+54793883581,sess_140,2025-10-26 00:06:00,Pop,Lana Del Rey - Video Games,play,3
+44165053985,sess_141,2025-10-16 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,1
+44165053985,sess_141,2025-10-16 00:04:00,Rock,The Killers - Mr. Brightside,play,2
+44165053985,sess_141,2025-10-16 00:09:00,Rock,Foo Fighters - Everlong,skip,3
+44165053985,sess_141,2025-10-16 00:10:00,Rock,The Strokes - Last Nite,skip,4
+21898635886,sess_142,2025-10-01 00:00:00,Jazz,Miles Davis - So What,play,1
+21898635886,sess_142,2025-10-01 00:05:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,2
+21898635886,sess_142,2025-10-01 00:10:00,Jazz,Kamasi Washington - Truth,play,3
+21898635886,sess_142,2025-10-01 00:12:00,Jazz,John Coltrane - A Love Supreme,play,4
+83681783729,sess_143,2025-10-11 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,1
+83681783729,sess_143,2025-10-11 00:04:00,Rock,Foo Fighters - Everlong,skip,2
+83681783729,sess_143,2025-10-11 00:05:00,Rock,The Strokes - Last Nite,play,3
+23639295296,sess_144,2025-10-01 00:00:00,Pop,Lana Del Rey - Video Games,play,1
+23639295296,sess_144,2025-10-01 00:04:00,Pop,"Ariana Grande - thank u, next",play,2
+23639295296,sess_144,2025-10-01 00:06:00,Pop,Billie Eilish - Ocean Eyes,skip,3
+23639295296,sess_144,2025-10-01 00:10:00,Pop,Taylor Swift - Anti-Hero,skip,4
+98376045986,sess_145,2025-10-03 00:00:00,Rock,The Killers - Mr. Brightside,play,1
+98376045986,sess_145,2025-10-03 00:02:00,Rock,Foo Fighters - Everlong,play,2
+98376045986,sess_145,2025-10-03 00:04:00,Rock,The Strokes - Last Nite,play,3
+98376045986,sess_145,2025-10-03 00:15:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,4
+32119445226,sess_146,2025-10-30 00:00:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,1
+32119445226,sess_146,2025-10-30 00:04:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,2
+32119445226,sess_146,2025-10-30 00:04:00,Ethiopiques,Hailu Mergia - Tezeta,skip,3
+79232299830,sess_147,2025-10-22 00:00:00,Ethiopiques,Hailu Mergia - Tezeta,skip,1
+79232299830,sess_147,2025-10-22 00:04:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,2
+79232299830,sess_147,2025-10-22 00:08:00,Ethiopiques,Aster Aweke - Menew,play,3
+79232299830,sess_147,2025-10-22 00:09:00,Ethiopiques,Neway Debebe - Yamral Tiletish,skip,4
+42739322469,sess_148,2025-10-15 00:00:00,Hip Hop,J. Cole - Middle Child,skip,1
+42739322469,sess_148,2025-10-15 00:02:00,Hip Hop,Lauryn Hill - I Gotta find piece of mind,play,2
+42739322469,sess_148,2025-10-15 00:04:00,Hip Hop,Kendrick Lamar - Love.,skip,3
+42739322469,sess_148,2025-10-15 00:06:00,Hip Hop,Erykah Badu - On & On,skip,4
+51778070489,sess_149,2025-10-04 00:00:00,Pop,Taylor Swift - Anti-Hero,play,1
+51778070489,sess_149,2025-10-04 00:03:00,Pop,"Ariana Grande - thank u, next",skip,2
+51778070489,sess_149,2025-10-04 00:08:00,Pop,Billie Eilish - Ocean Eyes,skip,3
+87674064446,sess_150,2025-10-04 00:00:00,Jazz,Kamasi Washington - Truth,play,1
+87674064446,sess_150,2025-10-04 00:03:00,Jazz,John Coltrane - A Love Supreme,play,2
+87674064446,sess_150,2025-10-04 00:08:00,Jazz,Herbie Hancock - Cantaloupe Island,skip,3
+56107989498,sess_151,2025-10-11 00:00:00,Rock,Foo Fighters - Everlong,play,1
+56107989498,sess_151,2025-10-11 00:05:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,2
+56107989498,sess_151,2025-10-11 00:06:00,Rock,The Strokes - Last Nite,skip,3
+56107989498,sess_151,2025-10-11 00:08:00,Rock,The Killers - Mr. Brightside,skip,4
+71021332936,sess_152,2025-10-10 00:00:00,Rock,Foo Fighters - Everlong,play,1
+71021332936,sess_152,2025-10-10 00:04:00,Rock,Arctic Monkeys - Do I Wanna Know?,play,2
+71021332936,sess_152,2025-10-10 00:06:00,Rock,The Strokes - Last Nite,skip,3
+71021332936,sess_152,2025-10-10 00:08:00,Rock,The Killers - Mr. Brightside,skip,4
+35729760176,sess_153,2025-10-01 00:00:00,Rock,The Killers - Mr. Brightside,play,1
+35729760176,sess_153,2025-10-01 00:02:00,Rock,Foo Fighters - Everlong,play,2
+35729760176,sess_153,2025-10-01 00:06:00,Rock,The Strokes - Last Nite,skip,3
+35729760176,sess_153,2025-10-01 00:10:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,4
+10322067505,sess_154,2025-10-03 00:00:00,Pop,"Ariana Grande - thank u, next",play,1
+10322067505,sess_154,2025-10-03 00:05:00,Pop,Lana Del Rey - Video Games,skip,2
+10322067505,sess_154,2025-10-03 00:09:00,Pop,Taylor Swift - Anti-Hero,skip,3
+10322067505,sess_154,2025-10-03 00:10:00,Pop,Billie Eilish - Ocean Eyes,play,4
+45163546282,sess_155,2025-10-09 00:00:00,Rock,The Strokes - Last Nite,skip,1
+45163546282,sess_155,2025-10-09 00:04:00,Rock,Foo Fighters - Everlong,play,2
+45163546282,sess_155,2025-10-09 00:05:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,3
+37570403644,sess_156,2025-10-21 00:00:00,Jazz,Kamasi Washington - Truth,skip,1
+37570403644,sess_156,2025-10-21 00:05:00,Jazz,John Coltrane - A Love Supreme,skip,2
+37570403644,sess_156,2025-10-21 00:08:00,Jazz,Miles Davis - So What,skip,3
+46027823257,sess_157,2025-10-06 00:00:00,Ethiopiques,Aster Aweke - Menew,play,1
+46027823257,sess_157,2025-10-06 00:03:00,Ethiopiques,Neway Debebe - Yamral Tiletish,play,2
+46027823257,sess_157,2025-10-06 00:06:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,skip,3
+46027823257,sess_157,2025-10-06 00:06:00,Ethiopiques,Hailu Mergia - Tezeta,play,4
+35105032610,sess_158,2025-10-06 00:00:00,Pop,Billie Eilish - Ocean Eyes,play,1
+35105032610,sess_158,2025-10-06 00:05:00,Pop,"Ariana Grande - thank u, next",skip,2
+35105032610,sess_158,2025-10-06 00:06:00,Pop,Taylor Swift - Anti-Hero,skip,3
+35105032610,sess_158,2025-10-06 00:06:00,Pop,Lana Del Rey - Video Games,play,4
+10939777262,sess_159,2025-10-17 00:00:00,Rock,Arctic Monkeys - Do I Wanna Know?,skip,1
+10939777262,sess_159,2025-10-17 00:03:00,Rock,The Strokes - Last Nite,skip,2
+10939777262,sess_159,2025-10-17 00:04:00,Rock,The Killers - Mr. Brightside,play,3
+31119316905,sess_160,2025-10-25 00:00:00,Ethiopiques,Aster Aweke - Menew,play,1
+31119316905,sess_160,2025-10-25 00:03:00,Ethiopiques,Mulatu Astatke - Yekermo Sew,play,2
+31119316905,sess_160,2025-10-25 00:10:00,Ethiopiques,Hailu Mergia - Tezeta,skip,3
